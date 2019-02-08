@@ -1,0 +1,62 @@
+
+
+<div class = "restartBtn">
+  <button
+  (click)="restartGame()"
+  type="button"
+  class="btn btn-info btn-lg"
+ >Restart Again</button>
+ 
+</div>
+
+<!--My Current Score -->
+
+<div class="container">
+    <h2>Your Score</h2>
+    <table class="table table-dark">
+    <thead>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">My Score</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>{{name}}</td>
+        <td>{{score}}</td>
+      </tr>
+     </tbody>
+  </table>
+  </div>
+
+
+
+
+
+
+
+<!-- container class to show list of high score -->
+
+
+
+<div class="container">
+  <h2>Hi-Scores</h2>
+  <table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of allUserScore">
+      <td>{{item.name}}</td>
+      <td>{{item.score}}</td>
+    </tr>
+   </tbody>
+</table>
+</div>
+
+
+
+

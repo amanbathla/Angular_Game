@@ -1,0 +1,18 @@
+
+
+
+<div class="container-fluid" style="background-color:aquamarine">
+<div class="container d-flex">
+  <h2> Time Left: {{timeLeft}} </h2><br>
+  <h2> Score : {{score}}</h2>
+  </div>
+
+  <div class="container col-6">
+      <div class="d-flex flex-wrap justify-content-around">
+        <app-c1 [color]="c1" (click)="clickComponent(c1)" ></app-c1>
+        <app-c2 [color]="c2" (click)="clickComponent(c2)"></app-c2>
+        <app-c3 [color]="c3"  (click)="clickComponent(c3)"></app-c3>
+        <app-c4 [color]="c4" (click)="clickComponent(c4)"></app-c4>
+      </div>
+    </div>
+  </div>

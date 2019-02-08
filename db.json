@@ -1,0 +1,64 @@
+{
+  "posts": [
+    {
+      "name": "shubojeet",
+      "score": 40,
+      "id": 1
+    },
+    {
+      "name": "jfbem",
+      "score": 10,
+      "id": 2
+    },
+    {
+      "name": "mbdj",
+      "score": 60,
+      "id": 3
+    },
+    {
+      "name": "mw dxn",
+      "score": 140,
+      "id": 4
+    },
+    {
+      "name": "xtrg",
+      "score": 100,
+      "id": 5
+    },
+    {
+      "name": "xsks",
+      "score": 210,
+      "id": 6
+    },
+    {
+      "name": "sounak",
+      "score": 70,
+      "id": 7
+    },
+    {
+      "name": "amanb",
+      "score": 150,
+      "id": 8
+    },
+    {
+      "name": "DZVF",
+      "score": 210,
+      "id": 9
+    },
+    {
+      "name": "aman",
+      "score": 200,
+      "id": 10
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
